@@ -1,0 +1,9 @@
+@import '../views/escuela-digital';
+.secciones {
+    margin-bottom: 54px;
+    .secciones-lista {
+        justify-content: space-evenly;
+        list-style-type: none;
+        display: flex;
+    }
+}

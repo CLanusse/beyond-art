@@ -1,0 +1,29 @@
+@import '../utilities/variables';
+.card-auspiciantes {
+    box-sizing: border-box;
+    text-align: center;
+    img {
+        width: 20%;
+        height: 60px;
+        margin-left: 19px;
+        margin-bottom: 30px;
+    }
+}
+
+.card-body {
+    .card-subtitle-fechas {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .card-title-fechas {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .card-text-fechas {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+    }
+}

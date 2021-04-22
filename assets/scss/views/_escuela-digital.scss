@@ -1,0 +1,68 @@
+@import '../utilities/variables';
+.texto-container {
+    margin: 43 0 65 0;
+    .subtitulo {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 43.35px;
+    }
+    .texto {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.01px;
+    }
+}
+
+.card {
+    box-shadow: $shadow;
+    .card-img-top-talleres {
+        height: 143px;
+    }
+    .card-body {
+        padding: 19px 14px 27px 18px;
+        .card-title {
+            font-size: 18px;
+            font-style: normal;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-bottom: 9px !important;
+        }
+        .card-subtitle {
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            margin-bottom: 12px !important;
+        }
+        .card-text {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 19px !important;
+        }
+        .btn-talleres-container {
+            text-align: center;
+        }
+    }
+}
+#talleres-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.taller {
+    width: 275px;
+    min-height: 380px;
+    margin-bottom: 40px;
+    // height: 400px;
+}
+.btn-membresia {
+    border-color: #EC933C;
+    margin-top: 32px;
+    color: #EC933C;
+}
+
+.btn-membresia:hover {
+    color: white;
+    background-color: #EC933C;
+}
