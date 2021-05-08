@@ -118,7 +118,7 @@ const BeyondArtComponent = {
         
         <img src="./assets/images/imagen-beyond-art-2.png" alt="beyondaart" class="beyond-middel-img"/>
 
-        <div class="banner-index">
+        <div style="margin-bottom: -2px" class="banner-index">
             <div class="banner-index__text banner-beyond__2">
                 <p class="banner__title">
                    Beyond Art
